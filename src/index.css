@@ -1,21 +1,54 @@
 input {
   padding: 10px;
   font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
 }
+
 .search-container {
   position: relative;
   width: 300px;
+  margin: 20px auto;
+  padding: 15px;
 }
+
 .suggestions-list {
   position: absolute;
   width: 100%;
   border: 1px solid #ccc;
+  margin-top: 5px;
+  background-color: white;
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
 }
 
 .suggestions-list li {
-  padding: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
 }
 
 .suggestions-list li:hover {
   background-color: #f0f0f0;
+}
+
+.product-details {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.product-details img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.product-details h2 {
+  margin: 10px 0;
+}
+
+.product-details p {
+  margin: 10px 0;
+  line-height: 1.4;
 }
